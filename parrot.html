@@ -19,7 +19,7 @@
 <body>
     <div class="centered" align="center">
         <h1>Parrot</h1>
-        <input type="text" id="" ><br><br>
+        <input type="text" id="Parrot" ><br><br>
         <button>Repeat Me</button>
     </div>
     
@@ -36,6 +36,14 @@
        let input =  document.getElementById('input');       
 ​
         button.addEventListener('click')
+        let colors = ["red", "blue", "yellow", "orange", "gold", "brown"];
+
+        function f_color(){
+var Parrot = parseInt(document.getElementById('Parrot').value);
+if (Parrot == "Change background") {
+document.getElementById('Parrot').style.color = colors;
+}
+}
 
 
     </script>
